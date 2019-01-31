@@ -1,5 +1,6 @@
 class TopController < ApplicationController
   def index
+    render html: "hello,world!!"
   end
   
   def logout
